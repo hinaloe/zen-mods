@@ -4,7 +4,7 @@ The draft zen browser's mods by @hinaloe.
 
 ## Features
 
-- [Colored container tab](./container_bgcolor/README.md)
+- [Colored container tab](./container_bgcolor/readme.md)
 
 ## How to use (for developers)
 
