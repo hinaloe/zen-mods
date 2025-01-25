@@ -1,0 +1,23 @@
+@-moz-document url-prefix("chrome:") {
+  #tabbrowser-tabs {
+    .tabbrowser-tab {
+      &:not([selected]) .tab-background {
+        background-color: rgb(
+          from var(--identity-icon-color) r g b /
+            var(--theme-container_bgcolor-opacity, 0.05)
+        ) !important;
+      }
+    }
+
+    #zen-essentials-container .tabbrowser-tab {
+      &:not([selected]) .tab-background {
+        background-color: color-mix(
+          in hsl,
+          var(--identity-icon-color, var(--zen-toolbar-element-bg))
+            var(--theme-container_bgcolor-essential_opacity, 20%),
+          var(--zen-toolbar-element-bg)
+        ) !important;
+      }
+    }
+  }
+}

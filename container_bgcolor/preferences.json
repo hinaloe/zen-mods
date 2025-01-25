@@ -1,0 +1,14 @@
+[
+    {
+        "property": "theme.container_bgcolor.opacity",
+        "label": "Opacity of the container tab background color",
+        "type": "string",
+        "defaultValue": "0.05"
+    },
+    {
+        "property": "theme.container_bgcolor.essential_opacity",
+        "label": "Opacity of the essential container tab background color",
+        "type": "string",
+        "defaultValue": "0.2"
+    }
+]

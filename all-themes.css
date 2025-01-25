@@ -1,1 +1,5 @@
 /* stylelint-disable comment-empty-line-before */
+/* Name: Colored container tab */
+/* Description: Container tab background color as workspace color */
+/* Author: @hinaloe */
+@import url("./container_bgcolor/chrome.css");
