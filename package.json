@@ -1,0 +1,16 @@
+{
+  "name": "zen-mods",
+  "version": "0.0.1",
+  "description": "Zen Browser mods",
+  "scripts": {
+    "lint": "stylelint '**/*.css'"
+  },
+  "keywords": [],
+  "private": true,
+  "author": "hinaloe <hina@hina.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint": "^16.13.2",
+    "stylelint-config-standard": "^37.0.0"
+  }
+}
